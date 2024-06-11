@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f810a62bf788ec4889e64e58735664c, type: 3}
+  m_Name: Recipe004
+  m_EditorClassIdentifier: 
+  displayName: "\uBE68\uAC04 \uD3EC\uC158"
+  prefabName: Item_WarmPotion
+  description: "\uD384\uD384 \uB053\uACE0\uC788\uB2E4. \uB9C8\uC2DC\uBA74 \uB2F9\uBD84\uAC04
+    \uCD94\uC704\uB294 \uAC71\uC815 \uC5C6\uC5B4\uBCF4\uC778\uB2E4"
+  sources:
+  - displayName: "\uC21C\uBB34"
+    prefabName: Item_Turnip
+    count: 10
+  craftingTime: 2
+  resultNumOfCraft: 1
+  icon: {fileID: 21300000, guid: 1ab6cbba25f64ca4fabc3d9063d6d7e8, type: 3}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9a9116cfc99c5f4abc1b1d1705f0bdc, type: 3}
+  m_Name: Resource_Stone
+  m_EditorClassIdentifier: 
+  displayName: "\uBC14\uC704"
+  capacity: 0
+  resourceType: 1
+  growthGrade: 0
+  maxGrowthGrade: 0
+  growthInterval: 0
+  ResourcePrefabs:
+  - {fileID: 3331525124936422427, guid: 5cbf5d5c26cdf7a44857f7107a07d950, type: 3}
+  respawnTime: 0
+  QuantityPerHit: 0
