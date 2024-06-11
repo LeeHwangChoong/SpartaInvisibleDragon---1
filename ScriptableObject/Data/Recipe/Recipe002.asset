@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f810a62bf788ec4889e64e58735664c, type: 3}
+  m_Name: Recipe002
+  m_EditorClassIdentifier: 
+  displayName: "\uB2F9\uADFC \uCF00\uC774\uD06C"
+  prefabName: Item_Cake
+  description: "\uB2EC\uCF64\uD55C \uCF00\uC774\uD06C \uC785\uB2C8\uB2E4"
+  sources:
+  - displayName: "\uB2F9\uADFC"
+    prefabName: Item_Carrot
+    count: 5
+  - displayName: "\uC625\uC218\uC218"
+    prefabName: Item_Corn
+    count: 3
+  craftingTime: 2
+  resultNumOfCraft: 1
+  icon: {fileID: 21300000, guid: 13c399c0d77872e4e9fb5e4f52e96ea8, type: 3}

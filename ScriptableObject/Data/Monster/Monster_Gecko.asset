@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72b0c2bf8957f704f85b50aff778f7ff, type: 3}
+  m_Name: Monster_Gecko
+  m_EditorClassIdentifier: 
+  health: -48
+  walkSpeed: 0.5
+  runSpeed: 1
+  dropOnDeath:
+  - {fileID: 11400000, guid: 77420079414eb284598723da8d6f6884, type: 2}
+  - {fileID: 11400000, guid: 4e161e7ad9a739f4487e47d2abe787ba, type: 2}
+  - {fileID: 11400000, guid: 08529b3e8b1c2b54a8a60f4f38dd37c7, type: 2}
+  - {fileID: 11400000, guid: d3683cd319bb06e4d95231340ba02e5b, type: 2}
+  - {fileID: 11400000, guid: 051655072893dac44a969e9c3058a645, type: 2}
+  - {fileID: 11400000, guid: 491ad1f0786943c4dadeb6ca63ffc898, type: 2}
+  - {fileID: 11400000, guid: 019dbd8fcc0d0e641ba5de815829e78b, type: 2}
+  - {fileID: 11400000, guid: a87aa0a814b5b4145b386ea0a1739f3e, type: 2}
+  detectDistance: 1
+  safeDistance: 1
+  minWanderDistance: 2
+  maxWanderDistance: 3
+  minWanderWaitTime: 1
+  maxWanderWaitTime: 1
+  damage: 1
+  attackRate: 0.5
+  attackDistance: 1
+  fieldOfView: 120
+  locationLevel: 0
